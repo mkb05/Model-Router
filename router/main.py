@@ -69,7 +69,6 @@ def route_prompt(payload: RouteRequest):
         return {
             "decision": {
                 "tier": tier,
-                "target_model": target_model,
                 "confidence": round(float(probs[label_id]), 4)
             },
             "scores": {
