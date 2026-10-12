@@ -1,0 +1,32 @@
+Loading weights: 100%
+ 100/100 [00:00<00:00, 3219.73it/s]
+[transformers] DistilBertForSequenceClassification LOAD REPORT from: distilbert-base-uncased
+Key                     | Status     | 
+------------------------+------------+-
+vocab_projector.bias    | UNEXPECTED | 
+vocab_transform.bias    | UNEXPECTED | 
+vocab_layer_norm.weight | UNEXPECTED | 
+vocab_transform.weight  | UNEXPECTED | 
+vocab_layer_norm.bias   | UNEXPECTED | 
+classifier.weight       | MISSING    | 
+pre_classifier.bias     | MISSING    | 
+classifier.bias         | MISSING    | 
+pre_classifier.weight   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+ [36/36 00:17, Epoch 3/3]
+Epoch	Training Loss	Validation Loss	Accuracy	F1
+1	No log	0.526750	0.873684	0.886792
+2	No log	0.297792	0.968421	0.974359
+3	No log	0.234956	0.978947	0.982759
+Writing model shards: 100%
+ 1/1 [00:00<00:00,  1.98it/s]
+Writing model shards: 100%
+ 1/1 [00:05<00:00,  5.01s/it]
+Writing model shards: 100%
+ 1/1 [00:01<00:00,  1.02s/it]
+Writing model shards: 100%
+ 1/1 [00:00<00:00,  1.04it/s]
+Model and tokenizer saved successfully to ./trained_router_pytorch

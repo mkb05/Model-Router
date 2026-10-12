@@ -1,0 +1,95 @@
+{"text": "Find and list any dates in the email body: 'Hi team, the project kickoff is scheduled for 07/15/2024. Please confirm.'", "label": 0, "domain": "nlp_reasoning"}
+{"text": "Given the recurrence T(n)=2T(n/2)+n log n, apply the Master Theorem to find its asymptotic bound.", "label": 1, "domain": "math_logic"}
+{"text": "Identify any equivocation fallacies in the political satire and trace how they affect the overall argument\u2019s validity.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "How do I configure a Flask app to use SQLite for CRUD operations?", "label": 0, "domain": "architecture_systems"}
+{"text": "Create a minimal example of a distributed consensus test harness in Python using asyncio and sockets.", "label": 1, "domain": "code_engineering"}
+{"text": "Explain how an event\u2011driven microservices architecture can handle high contention writes across three AWS regions without downtime.", "label": 1, "domain": "architecture_systems"}
+{"text": "Please correct the indentation and syntax in this Python class definition.", "label": 0, "domain": "code_engineering"}
+{"text": "Write a Rust example of a lock\u2011free stack using atomic compare\u2011and\u2011swap, with safety comments.", "label": 1, "domain": "code_engineering"}
+{"text": "Provide a formal proof, using mathematical induction, that the Fibonacci sequence satisfies F(n) \u2264 2\u207f for all n\u22650.", "label": 1, "domain": "math_logic"}
+{"text": "Create a simple bash script that backs up /var/www to /tmp/backup with a timestamped filename.", "label": 0, "domain": "code_engineering"}
+{"text": "Write a Python script that uses perf to trace cache\u2011coherency misses caused by false sharing in a multithreaded application.", "label": 1, "domain": "code_engineering"}
+{"text": "Write a Jupyter notebook cell that uses spaCy to identify and visualize causal dependencies in a provided text.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Correct any typos in the following list: [\"aple\", \"bananna\", \"cherry\"].", "label": 0, "domain": "nlp_reasoning"}
+{"text": "Translate to Spanish: 'We will meet at the caf\u00e9 at 6 p.m. tomorrow.'", "label": 0, "domain": "nlp_reasoning"}
+{"text": "Explain how the protagonist's guilt in Dostoevsky's *Crime and Punishment* leads to Raskolnikov's eventual confession, linking at least three narrative events.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Write pseudo\u2011code for a branch\u2011and\u2011bound solver for the knapsack problem, highlighting the pruning conditions.", "label": 1, "domain": "math_logic"}
+{"text": "In Shakespeare's *Macbeth*, how does Lady Macbeth's manipulation causally influence the political instability that follows, and what subtle rhetorical tricks does she employ?", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Give a concise example of a POST endpoint in ASP.NET Core that inserts a new record.", "label": 0, "domain": "architecture_systems"}
+{"text": "Convert this JSON string into a Python dictionary: \"{\\\"id\\\":10,\\\"name\\\":\\\"Bob\\\"}\"", "label": 0, "domain": "code_engineering"}
+{"text": "If a bag contains 4 red and 6 blue marbles, what is the probability of randomly picking a blue marble?", "label": 0, "domain": "math_logic"}
+{"text": "How can I design an event\u2011driven system that tolerates high contention across three AWS regions without sacrificing latency?", "label": 1, "domain": "architecture_systems"}
+{"text": "Help me fix the indentation in this Python code: `def foo():\\nprint('bar')`", "label": 0, "domain": "code_engineering"}
+{"text": "Create a regex pattern that extracts sentences containing at least two causal connectors (e.g., because, therefore) from a given literary analysis text.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Help me correct the indentation in this Python script.", "label": 0, "domain": "code_engineering"}
+{"text": "What is the sum of the first ten positive integers?", "label": 0, "domain": "math_logic"}
+{"text": "Explain, in detail, how the narrator\u2019s use of irony in the third act subtly undermines the earlier claim that love conquers all.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Given the following excerpt, pinpoint the hidden misogynistic subtext and explain how it subtly influences the narrator's perspective.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Provide a step\u2011by\u2011step inductive argument showing that 2\u207f > n for all integers n \u2265 1.", "label": 1, "domain": "math_logic"}
+{"text": "Prove that every finite lattice is a complete lattice by constructing suprema and infima for arbitrary subsets.", "label": 1, "domain": "math_logic"}
+{"text": "Can you show me a minimal Dockerfile for a Node.js API that connects to a PostgreSQL database?", "label": 0, "domain": "architecture_systems"}
+{"text": "Demonstrate the minimax algorithm on a simple 2\u2011player zero\u2011sum game and identify the optimal strategies.", "label": 1, "domain": "math_logic"}
+{"text": "Why does my lock\u2011free stack occasionally return corrupted values under high contention?", "label": 1, "domain": "code_engineering"}
+{"text": "Create a simple CRUD service in PHP using Laravel and a MySQL connection.", "label": 0, "domain": "architecture_systems"}
+{"text": "Please translate the following French paragraph into English.", "label": 0, "domain": "nlp_reasoning"}
+{"text": "Construct a logical graph illustrating the chain of reasoning that leads from the opening metaphor to the final moral lesson.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "I need a bash script that sets up DPDK to bypass the kernel for a NIC, any tips?", "label": 1, "domain": "code_engineering"}
+{"text": "Generate a C++ snippet that uses std::atomic_flag for a spinlock and discuss its scalability limits.", "label": 1, "domain": "code_engineering"}
+{"text": "Calculate the probability of drawing an ace from a standard deck of cards.", "label": 0, "domain": "math_logic"}
+{"text": "Show me how to enable kernel bypass for a high\u2011frequency trading app using libfabric, and warn about concurrency pitfalls.", "label": 1, "domain": "code_engineering"}
+{"text": "Discuss the implications of using CRDTs versus traditional locking for high\u2011contention event streams in a globally replicated system.", "label": 1, "domain": "architecture_systems"}
+{"text": "Give me the unit conversion from 250 milliliters to liters.", "label": 0, "domain": "math_logic"}
+{"text": "My kernel bypass code using AF_XDP crashes with ENOMEM; what are common pitfalls and how to fix them?", "label": 1, "domain": "code_engineering"}
+{"text": "Provide a step\u2011by\u2011step guide to profile a memory leak in a long\u2011running Java microservice using jmap and jvisualvm.", "label": 1, "domain": "code_engineering"}
+{"text": "Suggest monitoring metrics and alerts for detecting contention spikes in an event\u2011driven architecture deployed globally.", "label": 1, "domain": "architecture_systems"}
+{"text": "Give me a bash command to build and run a Docker container from the Dockerfile I have.", "label": 0, "domain": "architecture_systems"}
+{"text": "How do I set up health\u2011check probes in a Dockerfile for a Go microservice that serves REST endpoints?", "label": 0, "domain": "architecture_systems"}
+{"text": "Is it possible to combine leader\u2011less replication with synchronous writes to meet strict RPO/RTO requirements?", "label": 1, "domain": "architecture_systems"}
+{"text": "Determine the overall sentiment (positive/negative/neutral) of this paragraph: 'The food was decent, but the service was terrible and the wait time was too long.'", "label": 0, "domain": "nlp_reasoning"}
+{"text": "Give a step\u2011by\u2011step guide to reproduce a livelock in a lock\u2011free ring buffer under heavy load.", "label": 1, "domain": "code_engineering"}
+{"text": "Analyze the argument structure of this op\u2011ed and pinpoint any hidden straw\u2011man fallacy that undermines the author's claim about economic inequality.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Provide a detailed explanation of why the stable marriage problem always has a solution, using the Gale\u2011Shapley algorithm.", "label": 1, "domain": "math_logic"}
+{"text": "Write a Python function that adds two numbers and returns the result.", "label": 0, "domain": "math_logic"}
+{"text": "Give me a minimal Dockerfile for a Node.js application that runs on port 3000.", "label": 0, "domain": "code_engineering"}
+{"text": "Correct the grammar in this code comment: // This function calculate the sum of two numbers.", "label": 0, "domain": "nlp_reasoning"}
+{"text": "I need a step\u2011by\u2011step induction proof that 3^n > n\u00b2 for all n \u2265 5.", "label": 1, "domain": "math_logic"}
+{"text": "Write pseudo\u2011code for the Hungarian algorithm and explain how it finds the optimal assignment in a bipartite graph.", "label": 1, "domain": "math_logic"}
+{"text": "Generate a bullet\u2011point summary that maps each claim in the article to its supporting evidence, highlighting any gaps in the causal chain.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Suggest best practices for rolling out schema changes in a sharded MySQL deployment without downtime.", "label": 1, "domain": "architecture_systems"}
+{"text": "Write a Python function that uses backtracking to solve a Sudoku puzzle, then explain its correctness via constraint satisfaction.", "label": 1, "domain": "math_logic"}
+{"text": "What are best practices for achieving low latency with kernel bypass techniques on multi\u2011core servers?", "label": 1, "domain": "code_engineering"}
+{"text": "Please translate the following French paragraph into English: \"Le chat noir dort sur le canap\u00e9.\"", "label": 0, "domain": "nlp_reasoning"}
+{"text": "Find the probability of drawing an ace from a standard deck of cards.", "label": 0, "domain": "math_logic"}
+{"text": "Fix the missing parentheses in this SQL query: `SELECT * FROM users WHERE id = 5;`", "label": 0, "domain": "code_engineering"}
+{"text": "If I have 3 apples and get 2 more, how many apples now?", "label": 0, "domain": "math_logic"}
+{"text": "Give me a comparison table of multi\u2011region replication strategies for Cassandra versus CockroachDB, focusing on latency under heavy load.", "label": 1, "domain": "architecture_systems"}
+{"text": "Why does my C# ConcurrentDictionary sometimes return stale values after a high\u2011frequency update burst?", "label": 1, "domain": "code_engineering"}
+{"text": "Explain the trade\u2011offs of using event\u2011driven microservices across three AWS regions under heavy write contention.", "label": 1, "domain": "architecture_systems"}
+{"text": "Write a simple Express.js CRUD API with routes for creating, reading, updating, and deleting users.", "label": 0, "domain": "architecture_systems"}
+{"text": "Add a proper docstring to this C++ function that sorts a vector.", "label": 0, "domain": "code_engineering"}
+{"text": "Provide a concise README snippet that explains how to start the Docker containers and test the REST endpoints with curl.", "label": 0, "domain": "architecture_systems"}
+{"text": "Implement a lock\u2011free ring buffer in C++20 using std::atomic_ref, and explain its memory ordering.", "label": 1, "domain": "code_engineering"}
+{"text": "Is there an efficient algorithm to determine whether a given graph is Hamiltonian, and how does it relate to NP-completeness?", "label": 1, "domain": "math_logic"}
+{"text": "Add a docstring to this C++ method explaining its parameters and return value.", "label": 0, "domain": "code_engineering"}
+{"text": "Create a sample Kubernetes YAML that deploys an event\u2011driven service mesh with automatic failover between regions.", "label": 1, "domain": "architecture_systems"}
+{"text": "Can you explain why my lock\u2011free queue occasionally loses items under high contention?", "label": 1, "domain": "code_engineering"}
+{"text": "Explain why the greedy algorithm fails for the knapsack problem, and illustrate with a counterexample using induction on item count.", "label": 1, "domain": "math_logic"}
+{"text": "Construct a mixed\u2011strategy Nash equilibrium for Rock\u2011Paper\u2011Scissors and verify that each player\u2019s expected payoff is zero.", "label": 1, "domain": "math_logic"}
+{"text": "Write a YAML snippet configuring a zero\u2011downtime sharding plan for PostgreSQL using pg_shard, ensuring seamless failover during disaster recovery.", "label": 1, "domain": "architecture_systems"}
+{"text": "Create a MiniZinc model for the classic n\u2011queens problem and discuss how constraint propagation ensures a solution.", "label": 1, "domain": "math_logic"}
+{"text": "Add type hints to this Python function: `def add(a,b): return a+b`", "label": 0, "domain": "code_engineering"}
+{"text": "Prove by strong induction that for all n\u22651, the sum of the first n odd numbers equals n\u00b2.", "label": 1, "domain": "math_logic"}
+{"text": "Create a markdown table listing each paragraph of the essay, the identified bias, and the multi\u2011hop justification for that bias.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "What is 25% of 80?", "label": 0, "domain": "math_logic"}
+{"text": "Give the definition of a linear transformation in plain language.", "label": 0, "domain": "math_logic"}
+{"text": "Can you derive the Nash equilibrium for a two-player zero-sum game with payoff matrix [[3,1],[0,2]]?", "label": 1, "domain": "math_logic"}
+{"text": "Create a LaTeX\u2011formatted inductive proof that the product of the first n even numbers equals 2\u207f\u00b7n!.", "label": 1, "domain": "math_logic"}
+{"text": "Give me a regular expression to match a valid email address.", "label": 0, "domain": "code_engineering"}
+{"text": "Write a C++ header file with include guards for a class named Logger.", "label": 0, "domain": "code_engineering"}
+{"text": "Provide a step\u2011by\u2011step breakdown of the multi\u2011hop reasoning required to infer the narrator\u2019s true motives from the ambiguous ending.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "What is the overall sentiment of this product review? \"I love the battery life, but the screen is disappointing.\"", "label": 0, "domain": "nlp_reasoning"}
+{"text": "Give me a minimal example of kernel bypass using DPDK to achieve zero\u2011copy packet processing in user space.", "label": 1, "domain": "code_engineering"}
+{"text": "In the following code snippet, find the logical error that causes a false positive for circular reasoning detection.", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Using induction, show that the number of ways to tile a 2\u00d7n board with dominoes equals the nth Fibonacci number.", "label": 1, "domain": "math_logic"}
+{"text": "Can you map the causal chain from the character's childhood trauma to the final act's violent climax in the novel?", "label": 1, "domain": "nlp_reasoning"}
+{"text": "Draft a short essay (\u2248300 words) that critiques the multi\u2011hop causal reasoning used in the film *Inception*, highlighting any logical inconsistencies.", "label": 1, "domain": "nlp_reasoning"}
