@@ -4,12 +4,28 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import onnxruntime as ort
 from tokenizers import Tokenizer
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Edge Model Router API", version="1.0.0")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "onnx_router", "model_quantized.onnx")
 TOKENIZER_PATH = os.path.join(BASE_DIR, "onnx_router", "tokenizer.json")
+
+# Allow requests from localhost during development and your deployed frontend
+origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "*",  
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"], 
+    allow_headers=["*"],
+)
 
 if not os.path.exists(MODEL_PATH) or not os.path.exists(TOKENIZER_PATH):
     raise RuntimeError(f"Missing artifacts in onnx_router. Checked: {MODEL_PATH}")
